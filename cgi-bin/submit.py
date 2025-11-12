@@ -1,4 +1,18 @@
 #!/usr/bin/env python3
+"""
+cgi-bin/submit.py
+-----------------
+This is the classic Python CGI script version of the form handler.
+
+It works when running a local web server via:
+    python3 -m http.server 8080 --cgi
+
+It demonstrates how form data can be sent to a Python program 
+using GET or POST, which then prints back HTML as output.
+
+File type: Python (.py)
+Used here for backward compatibility and to teach basic web scripting.
+"""
 import cgi
 import os
 
