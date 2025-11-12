@@ -1,1 +1,8 @@
+# requirements.txt
+# ----------------
+# This file lists all the Python packages needed to run the project.
+# Render automatically installs these when deploying the app.
+
+# Here we only need Gunicorn (a production-grade WSGI server)
+# A WSGI (Web Server Gateway Interface) server is a component in a Python web application's deployment stack that acts as a bridge between a web server (like Nginx or Apache) and a Python web application or framework (like Django or Flask). It facilitates the communication by translating HTTP requests from the web server into a format that the Python application can understand, and then sending the application's response back to the web server to be delivered to the client.
 gunicorn
