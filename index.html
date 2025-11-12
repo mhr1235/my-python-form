@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Simple Python Form Demo</title>
+  </head>
+  <body>
+    <h1>Submit your info</h1>
+
+    <h2>POST Request (Name)</h2>
+    <form action="./cgi-bin/submit.py" method="POST">
+      <label>Name:
+        <input type="text" name="name" required>
+      </label>
+      <button type="submit">Send via POST</button>
+    </form>
+
+    <h2>GET Request (City)</h2>
+    <form action="./cgi-bin/submit.py" method="GET">
+      <label>City:
+        <input type="text" name="city" required>
+      </label>
+      <button type="submit">Send via GET</button>
+    </form>
+  </body>
+</html>
+
+
