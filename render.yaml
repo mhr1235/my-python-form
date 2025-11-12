@@ -1,3 +1,14 @@
+# render.yaml
+# ------------
+# This configuration file tells Render how to deploy your web app.
+# YAML stands for "YAML Ain't Markup Language" — a structured text format 
+# often used for configuration files because it's readable and indentation-based.
+
+# It defines:
+#   • The type of service (web)
+#   • The environment (Python)
+#   • The start command (how to run the app)
+#   • The Python version to use
 services:
   - type: web
     name: python-cgi-demo
