@@ -1,3 +1,19 @@
+"""
+server.py
+----------
+This is the Flask web server for deployment on Render.
+
+It runs continuously,
+waiting for incoming web requests.
+
+Routes:
+  • '/' → serves the index.html page
+  • '/cgi-bin/submit.py' → handles GET and POST form submissions
+
+File type: Python (.py)
+Python files contain code written in the Python programming language.
+They can define web servers, data processing, scripts, etc.
+"""
 from flask import Flask, request, render_template_string
 
 app = Flask(__name__)
